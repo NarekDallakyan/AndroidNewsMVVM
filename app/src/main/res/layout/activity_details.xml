@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".view.activity.DetailsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/sss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relativeID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/detailsScreenImageID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ProgressBar
+                    android:id="@+id/progressBarDetailsScreenID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/categoryDetailsScreenTxtID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="AAA"
+                    android:textColor="#000"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/titleDetailsScreenTxtID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AAA"
+                    android:textColor="#3e49c7"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_horizontal"
+                    android:id="@+id/dateDetailsScreenTxtID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AAA"
+                    android:textColor="#6f46b7"
+                    android:textSize="20sp" />
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/bobyDetailsScreenTxtID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AAA"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/photoGalleryID"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/gallery" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/videoGalleryID"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/videogallery" />
+
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/main_Container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/main_ContainerVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+</RelativeLayout>
