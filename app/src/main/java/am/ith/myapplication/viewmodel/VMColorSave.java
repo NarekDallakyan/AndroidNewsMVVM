@@ -28,7 +28,6 @@ public class VMColorSave extends AndroidViewModel {
             listLiveData = colorSaveDao.getAllColors();
         }
     }
-//jnj
     public void insert (SaveColorModel saveColorModel) {
         new insertAsyncTask(colorSaveDao).execute(saveColorModel);
     }
