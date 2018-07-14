@@ -39,11 +39,8 @@ public class AppApplication extends Application {
                 .build();
     }
 
-// heto?
-    //Rob axper en task@ norutyunneric vor tvel einq im sovorelu hamar mvvm -ov em havaqel,kardum inch haskanum em
-    //kirarum em,nai room@ mi nai hl@
 
-//sranic nerqev cachingna es hech
+
     private OkHttpClient addCache(){
         int cacheSize = 10 * 1024 * 1024; // 10 MB
 
